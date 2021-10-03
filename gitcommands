@@ -1,0 +1,17 @@
+List of mostly used git commands:
+git init #Git repository initialisation
+git config --global user.name "Username" #configuring git system username
+git config --global user.email "Useremail" #configuring git system useremail
+git add filename #for adding a single to staging area
+git add . #for adding all newly created or untracked giles to staging area
+git commit -m "Message" #commit the single or multiple files or the logic updated along with message inside double quotes
+git remote add origin <URL> #Adding remote repository in local system
+git branch -m "New Name" #Rename current branch name
+git push add origin #Pushing the file from local repository to remote repo
+git log #For checking all commits in details
+git log --oneline #For checking all commits in short summary
+git log -n #for checking specific numbers of commits in detail
+git show <commit id> #to check details of specific commit id
+.gitignore #it is a file for ignoring the files which should not be tracked by git repository
+git log --grep "Any word of commit msg" #to search any commit with specific keywrd or message
+
