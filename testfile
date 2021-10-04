@@ -1,1 +1,3 @@
-This is test file in main branch and content to change is "THIS"
+This is test file in main branch and content to change is "changed finally after merge conflict"
+This is testfile created in newbranch and content to be change is "changed finally after merge conflict"
+
