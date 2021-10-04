@@ -14,4 +14,9 @@ git log -n #for checking specific numbers of commits in detail
 git show <commit id> #to check details of specific commit id
 .gitignore #it is a file for ignoring the files which should not be tracked by git repository
 git log --grep "Any word of commit msg" #to search any commit with specific keywrd or message
+git branch #to check all branches available in repo
+git branch <branchname> #to create new branch
+git checkout <branchname> #switch from one branch to another branch
+git diff <branchname> #to check the difference of current branch to another branch
+git merge <branchname> #to merge unexisted file from other branch to current branch
 
