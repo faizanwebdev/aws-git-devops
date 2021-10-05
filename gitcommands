@@ -20,4 +20,12 @@ git checkout <branchname> #switch from one branch to another branch
 git diff <branchname> #to check the difference of current branch to another branch
 git merge <branchname> #to merge unexisted file from other branch to current branch
 git pull URL <branchname> #to pull from remote repository with respective branch where URL can be origin
+git restore <filename> #to discard or unstaged the uncommitted local changes
+git stash #to save uncompleted files or logic in stash list
+git stash save "Message" #to save stash with message
+git stash list #list out all stash in the list
+git stash apply n #to bring the specific stash back into working directory untracked files where n is index number of stash in list
+git stash drop #to delete the very latest inserted stash in list
+git stash clear #it will delete the complete stash list
+git commit -am "Message" #to add and commit together with a single command
 
