@@ -28,4 +28,12 @@ git stash apply n #to bring the specific stash back into working directory untra
 git stash drop #to delete the very latest inserted stash in list
 git stash clear #it will delete the complete stash list
 git commit -am "Message" #to add and commit together with a single command
-
+git revert <commit id> #to delete and ignore or revert the specific change from workspace as well as staging area
+git reset filename #to reset the file from staging area to unstaging area OR to delete snapshot of staging area and taking it back to unstaging area or untracked file
+git clean -n #to check all untracked files which we can delete or add
+git clean -f #to delete all untracked files
+git mv filename1 filename2 #to rename file
+git tag -a <tagname> -m "Tag message" <commit ID> #to give a special tag to a commit id to easily locate from log
+git tag #list out all tags
+git show <tagname> #to show the specific tag commit id along with tag message
+git tag -d <tagname> #to delete a tag name
